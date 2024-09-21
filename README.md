@@ -13,6 +13,15 @@ The dataset for this project was collected from various online sources, includin
  @InProceedings{W18-5118, author = "Mathur, Puneet and Sawhney, Ramit and Ayyar, Meghna and Shah, Rajiv", title = "Did you offend me? Classification of Offensive Tweets in Hinglish Language", booktitle = "Proceedings of the 2nd Workshop on Abusive Language Online (ALW2)", year = "2018", publisher = "Association for Computational Linguistics", pages = "138--148", location = "Brussels, Belgium", url = "http://aclweb.org/anthology/W18-5118" }
 - ChatGpt
 
+### Data Distribution Analysis
+
+#### Rating Distribution
+![Rating Distribution](images/rating_distribution.png)
+This bar chart displays the distribution of ratings in the dataset.
+
+#### Rating vs. Word Length
+![Rating vs Word Length](images/rating_vs_word_len.png)
+This scatter plot shows the correlation between ratings and word length in the comments.
 
 ## Methodology
 1. **Data Preprocessing**: Extensive preprocessing was performed to clean and prepare the data for model training.
@@ -47,11 +56,37 @@ This project consists of two Jupyter notebooks for analysis:
    To compare various tokenization methods, run the following notebook:
    ```bash
    jupyter notebook notebooks/tokenization_comparison.ipynb
+### Individual Model Performance
+
+#### Logistic Regression
+![Logistic Regression Performance](images/tokenization_Logistic.png)
+This graph shows the performance metrics for the Logistic Regression model across different tokenization methods.
+
+#### Naive Bayes
+![Naive Bayes Performance](images/tokenization_NB.png)
+This graph displays the performance metrics for the Naive Bayes model across different tokenization approaches.
+
+#### Random Forest
+![Random Forest Performance](images/tokenization_Random_Forest.png)
+This visualization presents the performance metrics for the Random Forest model with various tokenization techniques.
+
+#### Support Vector Machine (SVM)
+![SVM Performance](images/tokenization_SVM.png)
+This graph illustrates the performance metrics for the SVM model using different tokenization methods.
+
+#### XGBoost
+![XGBoost Performance](images/tokenization_XGB.png)
+This chart shows the performance metrics for the XGBoost model across various tokenization approaches.
+
 
 2. **Model Comparison with TF-IDF**
    To compare different models using TF-IDF, run this notebook:
    ```bash
    jupyter notebook notebooks/model_comparison.ipynb
+## Model Performance Visualizations
+
+![Performance Metrics for Different Models](images/model_all.png)
+This graph compares the performance metrics (Accuracy, Precision, Recall, F1 Score, ROC AUC) across different models including Gaussian NB, SVM, Logistic Regression, Random Forest, LSTM, and GRU.
    
 ## Contributing
 
@@ -70,4 +105,10 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 5.***Open a Pull Request***
     Go to the original repository and click on "New Pull Request" to submit your changes.
 Thank you for your contributions!
+
+
+
+
+
+
 
