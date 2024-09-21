@@ -1,0 +1,40 @@
+# Toxic Comment Detection
+
+### Data Distribution Analysis
+
+#### Rating Distribution
+![Rating Distribution](images/rating_distribution.png)
+This bar chart displays the distribution of ratings in the dataset.
+
+#### Rating vs. Word Length
+![Rating vs Word Length](images/rating_vs_word_len.png)
+This scatter plot shows the correlation between ratings and word length in the comments.
+
+## Model Performance Visualizations
+
+### Overall Model Comparison
+![Performance Metrics for Different Models](images/model_all.png)
+This graph compares the performance metrics (Accuracy, Precision, Recall, F1 Score, ROC AUC) across different models including Gaussian NB, SVM, Logistic Regression, Random Forest, LSTM, and GRU.
+
+### Individual Model Performance
+
+#### Logistic Regression
+![Logistic Regression Performance](images/tokenization_Logistic.png)
+This graph shows the performance metrics for the Logistic Regression model across different tokenization methods.
+
+#### Naive Bayes
+![Naive Bayes Performance](images/tokenization_NB.png)
+This graph displays the performance metrics for the Naive Bayes model across different tokenization approaches.
+
+#### Random Forest
+![Random Forest Performance](images/tokenization_Random_Forest.png)
+This visualization presents the performance metrics for the Random Forest model with various tokenization techniques.
+
+#### Support Vector Machine (SVM)
+![SVM Performance](images/tokenization_SVM.png)
+This graph illustrates the performance metrics for the SVM model using different tokenization methods.
+
+#### XGBoost
+![XGBoost Performance](images/tokenization_XGB.png)
+This chart shows the performance metrics for the XGBoost model across various tokenization approaches.
+
