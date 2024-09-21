@@ -42,8 +42,8 @@ To set up the environment and run the code, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/repository_name.git
-   cd repository_name
+   git clone https://github.com/Noel-Lawrence-2004/Multilingual-Toxic-Comment-Classifier.git
+   cd Multilingual-Toxic-Comment-Classifier
    
 2. Install the required packages:
    pip install -r requirements.txt
