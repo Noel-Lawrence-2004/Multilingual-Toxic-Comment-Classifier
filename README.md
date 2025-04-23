@@ -11,7 +11,7 @@ This project implements a multilingual toxicity detection model capable of ident
 The dataset for this project was collected from various online sources, including:
 - **Hinglish Profanity Dataset**: The dataset used in this research is detailed in the following paper:
  @InProceedings{W18-5118, author = "Mathur, Puneet and Sawhney, Ramit and Ayyar, Meghna and Shah, Rajiv", title = "Did you offend me? Classification of Offensive Tweets in Hinglish Language", booktitle = "Proceedings of the 2nd Workshop on Abusive Language Online (ALW2)", year = "2018", publisher = "Association for Computational Linguistics", pages = "138--148", location = "Brussels, Belgium", url = "http://aclweb.org/anthology/W18-5118" }
-- ChatGpt
+- Twitter
 
 ### Data Distribution Analysis
 
